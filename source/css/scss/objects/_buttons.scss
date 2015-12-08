@@ -3,14 +3,14 @@
 \*------------------------------------*/
 .btn {
 	display: inline-block;
-	background: $gray-dark;
+	background: $sol-red-strong;
 	color: $white;
 	line-height: 1;
 	font-weight: bold;
 	padding: $pad;
 	border: 0;
 	text-align: center;
-	
+
 	&:hover, &:focus {
 		color: $white;
 	}
