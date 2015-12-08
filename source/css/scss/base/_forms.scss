@@ -67,11 +67,11 @@ input[type="search"]::-webkit-search-decoration {
 }
 
 .inline-form {
-	
+
 	fieldset, .inline-container {
 		position: relative;
 	}
-	
+
 	input[type=submit], button, .btn {
 		font-size: $font-size-slightly-smaller;
 		padding: 0.65rem 1.3rem;
@@ -95,12 +95,12 @@ input[type="search"]::-webkit-search-decoration {
 	@media all and (min-width: $bp-med) {
 		width: 82%;
 
-	} 
-	
+	}
+
 	fieldset, .inline-container {
 		position: relative;
 	}
-	
+
 	input[type=submit], button {
 		position: absolute;
 		top: 0;
@@ -130,9 +130,9 @@ input[type="search"]::-webkit-search-decoration {
 	padding-right: 3em;
 }
 .inline-form .search-submit {
-	background: none;
+	background: $sol-red-strong;
 	padding: 0.78em 1em;
 	border: 0;
 	border-left: 1px solid $gray;
-	color: $gray;
+	color: $white;
 }
