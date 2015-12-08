@@ -1,14 +1,12 @@
-/*
+/** 
  * patternlab-node - v0.15.1 - 2015
- *
+ * 
  * Brian Muenzenmeyer, and the web community.
  * Licensed under the MIT license.
- *
+ * 
  * Many thanks to Brad Frost and Dave Olsen for inspiration, encouragement, and advice.
- *
- */
-
-(function () {
+ * 
+ **/(function () {
   "use strict";
 
   var pattern_assembler = function(){
