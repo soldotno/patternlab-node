@@ -7,9 +7,9 @@
 
 .logo {
 	float: left;
-	max-width: 8rem;
+	max-width: 4rem;
 	margin: 0.4rem;
-
+	max-height:40px;
 	@media all and (min-width: $bp-med) {
 		max-width: 9rem;
 	}
