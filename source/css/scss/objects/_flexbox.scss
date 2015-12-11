@@ -12,9 +12,19 @@
 		flex: 1 0 calc(100% - 20px);
 		margin: 0 10px 20px;
 		.imageholder{
+			position: relative;
 			width: 100%;
+			.hostname{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				color: $white;
+				background-color:rgba(0,0,0,0.4);
+				padding: 0 4px;
+			}
 			img{
 				width: 100%;
+				display: block;
 			}
 		}
 	}

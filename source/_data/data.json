@@ -40,6 +40,7 @@
 		"short" : "Lorem ipsum dolor sit (37 characters)",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
 	},
+	"hostname" : "www.sol.no",
 	"excerpt" : {
 		"short" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
 		"medium" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
