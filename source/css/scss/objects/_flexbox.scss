@@ -19,7 +19,7 @@
 				bottom: 0;
 				right: 0;
 				color: $white;
-				background-color:rgba(0,0,0,0.4);
+				background-color: $dim;
 				padding: 0 4px;
 			}
 			img{
@@ -27,6 +27,16 @@
 				display: block;
 			}
 		}
+	}
+	.flex.full:first-child:before,
+	.flex.half:first-child:before,
+	.flex.third:first-child:before
+	{
+		content: "";
+		display: block;
+		height: 0px;
+		width: 100%;
+		margin: 0;
 	}
 	.flex.full:before,
 	.flex.half:before,
