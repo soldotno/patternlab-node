@@ -4,9 +4,9 @@
 	"hero" : [
 		{
 			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"
+				"full": {
+					"src": "http://placebrew.com/980/350",
+					"alt": "Sweet cat"
 				}
 			},
 			"headline" : {
@@ -17,10 +17,20 @@
 	"touts" : [
 		{
 			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"
-				}
+				"full": {
+					"src": "http://placebrew.com/980/350",
+					"alt": "Sweet cat"
+				},
+					"half": {
+						"src": "http://placebrew.com/490/220",
+						"alt": "CAT"
+					}
+					,
+						"third": {
+							"src": "http://placebrew.com/327/212",
+							"alt": "CAT"
+						}
+
 			},
 			"headline" : {
 				"medium" : "Top 10 mountain ranges for hiking",
@@ -29,20 +39,20 @@
 		},
 		{
 			"img": {
-				"landscape-16x9": {
-					"src": "../../images/sample/landscape-16x9-mountains.jpg",
-					"alt": "Mountains"
+				"half": {
+					"src": "http://placebrew.com/490/220?dsfgdfg",
+					"alt": "CAT"
 				}
 			},
 			"headline" : {
-				"medium" : "Top 10 mountain ranges for hiking",
+				"medium" : "We  love this one",
 				"short" : "Article 2"
 			}
 		},
 		{
 			"img": {
-				"landscape-4x3": {
-					"src": "../../images/sample/tout-4x3-climbers.jpg",
+				"half": {
+					"src": "http://placebrew.com/490/220/?sdfg",
 					"alt": "Explore hiking trails"
 				}
 			},

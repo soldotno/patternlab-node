@@ -8,20 +8,26 @@
 	.flex.full,
 	.flex.half,
 	.flex.third{
-    box-sizing: border-box;
+		box-sizing: border-box;
 		flex: 1 0 calc(100% - 20px);
 		margin: 0 10px 20px;
+		.imageholder{
+			width: 100%;
+			img{
+				width: 100%;
+			}
+		}
 	}
-  .flex.full:before,
+	.flex.full:before,
 	.flex.half:before,
 	.flex.third:before{
-    content: "";
-    display: block;
-    height: 2px;
-    width: 100%;
-    background: #eee;
-    margin: 0 0 20px;
-  }
+		content: "";
+		display: block;
+		height: 2px;
+		width: 100%;
+		background: #eee;
+		margin: 0 0 20px;
+	}
 
 	@media (min-width: 481px){
 		.flex.full{
