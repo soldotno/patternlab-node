@@ -49,23 +49,48 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
  */
 
 
-
+@import "scss/generic/colors";
 @import "scss/generic/variables";
 @import "scss/generic/mixins";
 @import "scss/generic/reset";
 
 
+/*------------------------------------*\
+    $ TYPOGRAPHY
+\*------------------------------------*/
+@import "scss/typography/fonts";
+@import "scss/typography/headings";
+@import "scss/typography/regular-copy";
+@import "scss/typography/links";
+@import "scss/typography/inline-elements";
+@import "scss/typography/quotes";
 
-
+/*
+definition
+del-ins
+fine-print
+highlight
+strikethrough
+sub-sup
+emphasis
+strong-importance
+time
+preformatted-text
+abbreviation
+hr
+caption
+u-element
+b-element
+i-element
+developer-related-inline-elements
+emphasis-colors
+*/
 
 /*------------------------------------*\
     $GLOBAL ELEMENTS
 \*------------------------------------*/
 @import "scss/base/global-classes";
 @import "scss/base/main";
-@import "scss/base/links";
-@import "scss/base/headings";
-@import "scss/base/text";
 @import "scss/base/lists";
 @import "scss/base/media";
 @import "scss/base/forms";

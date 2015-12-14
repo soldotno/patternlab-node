@@ -1,0 +1,29 @@
+blockquote {
+  @extend h5;
+  margin-left:$horizontalBase;
+  margin-bottom:$verticalBase;
+  padding-left:$horizontalBase;
+  border-left:2px solid $solRed;
+
+  cite {
+    font-family:helvetica();
+    display:block;
+    clear:left;
+    padding-top:$verticalBase;
+  }
+}
+
+q {
+  @extend h5;
+  font-style:italic;
+}
+
+cite {
+	@extend small;
+}
+
+@media screen and (min-width:$largeWidth) {
+  blockquote {
+    margin-left:$verticalBase*2 + $horizontalBase;
+  }
+}

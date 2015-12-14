@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    $VARIABLES
+\*------------------------------------*/
+
+//SOL Colors
+$white: #ffffff;
+$red-normal: #e20613; //buttons etc
+$red-bright: #f10000; //news
+$gray-dark: #333; //titles
+$gray-darker: #2c2c2c; //header-bg
+$gray-darkest: #1f1f1f;
+$gray-medium: #555; //paragraphs and small text
+$gray-light: #f0f0f0; //light grey bg article slots
+$gray: #858585; //motor
+$green: #81d90f; //sport
+$brown: #B88F4A; //food
+$purple: #BF05AE; //houses
+$turquoise: #75d3dE; //health
+$orange: #FF8600; //travel
+$pink: #ea4893; //entertainment
+
+// Palette
+$solColor:#e20613;
+$solRed:$solColor;
+
+$neutralColor:rgb(240,240,240);
+$whiteColor:rgb(255,255,255);
+$offwhiteColor:#f5f5f5;
+$lightShade:rgba(0,0,0,0.04);
+$heavyShade:rgba(0,0,0,0.8);
+$overlayColor:rgba(0,0,0,0.6);
+$overlayTextColor:rgb(255,255,255);
+$facebookColor:rgb(67, 130, 188);
+$twitterColor:rgb(45, 217, 253);
+
+// @TODO: Designer should pick only one of the following
+$beigeColor:#fcf7e8;
+$beigeColor:#fff9df;
+
+// Backgrounds
+$bgColor: $neutralColor;
+$darkBgColor: $heavyShade;
+$paperColor: $whiteColor;
+$bylineBgColor: $lightShade;
+$linkBgColor: $lightShade;
+$borderColor:darken($neutralColor,6.5%);
+$lightBorderColor:darken($neutralColor,3%);
+$adBgColor: $beigeColor;
+$overlayGradient:linear-gradient(transparent 40%,black);
+
+// Copy
+$headingColor:#333;
+$lightHeadingColor:rgba(0,0,0,0.545);
+$textColor:#555;
+$lightTextColor:#777;
+$dangerousLowContrastColor:#aaa;
+$bylineColor:#8f8f8f;
+$linkColor:#08e;
+$linkHighlightColor:$offwhiteColor;
+
+/*Menu Colors*/
+$headerColor: #2c2c2c;
+$menuButtonActiveColor: lighten($headerColor,10%);
+$menuLinkColor: darken($textColor,20%);
+
+/*Footer*/
+$footerBgColor: #2C2C2C;
+$footerBorderColor: #ff0000;
+$footerColor: #ccc;
+$footerLightColor: $whiteColor;
+$footerHighlightColor: #666;
+
+

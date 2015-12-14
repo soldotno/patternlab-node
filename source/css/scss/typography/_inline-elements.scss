@@ -1,0 +1,65 @@
+strong {
+  font-weight:bold;
+}
+
+small {
+  font-size:1.2rem;
+  color:$lightTextColor;
+}
+.label,
+.source {
+  @extend small;
+  color:$dangerousLowContrastColor;
+}
+
+em {
+  font-style:italic;
+}
+
+// @TODO Move to separate atom
+img {
+  max-width:100%;
+  height:auto;
+}
+
+abbr {
+  border-bottom:1px dotted $linkColor;
+}
+
+code,pre,var,samp {
+  @include padded-text();
+
+  margin-bottom:$verticalBase;
+
+  font-family:monospace;
+  word-wrap:break-word;
+  color:#48bf48;
+  background:black;
+}
+
+sup,
+sub {
+  font-size:75%;
+  height:0;
+  line-height:0;
+  position:relative;
+  vertical-align:baseline;
+}
+
+sup {
+  bottom:1ex;
+}
+
+sub {
+  top:.5ex;
+}
+
+figure {
+  margin:0;
+}
+
+@media screen and (min-width:$largeWidth) {
+  small {
+    font-size:1.4rem;
+  }
+}

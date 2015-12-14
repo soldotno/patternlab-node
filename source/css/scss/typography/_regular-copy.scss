@@ -1,0 +1,31 @@
+body {
+  font-family:$mainFont;
+  line-height:$verticalBase;
+  color:$textColor;
+}
+
+// Workaronud for https://code.google.com/p/chromium/issues/detail?id=319623
+body {
+  font-size:1.6em;
+}
+p {
+  font-size:inherit;
+  line-height:inherit;
+  color:inherit;
+
+  margin-bottom:$verticalBase;
+
+  &:last-child {
+    margin-bottom:0;
+  }
+}
+
+// Lede
+h1 + p {
+  font-size:1.8rem;
+}
+@media screen and (min-width:$largeWidth) {
+  h1 + p {
+    font-size:1.9rem;
+  }
+}

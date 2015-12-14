@@ -1,0 +1,42 @@
+a {
+  @include padded-text();
+
+  text-decoration:underline;
+  color:$linkColor;
+  position:relative;
+
+  &:hover,
+  &:active,
+  &:focus {
+    text-decoration:none;
+    background:$linkColor;
+    color:$linkHighlightColor;
+    z-index:9;
+  }
+
+  &:active {
+    top:1px;
+  }
+
+  &.image-link {
+    padding:0;
+  }
+}
+
+@media screen and (min-width:$largeWidth) {
+  a {
+    @include no-padded-text();
+
+    &:hover,
+    &:active,
+    &:focus {
+      text-decoration:none;
+      background:transparent;
+      color:$linkColor;
+    }
+
+    &:focus {
+      outline:1px solid $linkColor;
+    }
+  }
+}
