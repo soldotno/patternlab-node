@@ -10,9 +10,9 @@
 	max-width: 4rem;
 	margin: 0.4rem;
 	max-height:40px;
-	@media all and (min-width: $bp-med) {
-		max-width: 9rem;
-	}
+	// @media all and (min-width: $bp-med) {
+	// 	max-width: 9rem;
+	// }
 }
 
 .nav-toggle {
@@ -23,18 +23,18 @@
 	line-height: 1;
 	border-left: 1px solid #dbdbdb;
 
-	@media all and (min-width: $bp-med) {
-		display: none;
-	}
+	// @media all and (min-width: $bp-med) {
+	// 	display: none;
+	// }
 }
 
 .search-form {
 	overflow: hidden;
 	max-height: 0;
 
-	@media all and (min-width: $bp-med) {
-		float: right;
-		max-height: none;
-		margin: 0.65em 0.5em 0 0;
-	}
+	// @media all and (min-width: $bp-med) {
+	// 	float: right;
+	// 	max-height: none;
+	// 	margin: 0.65em 0.5em 0 0;
+	// }
 }

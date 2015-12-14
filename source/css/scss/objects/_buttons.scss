@@ -3,11 +3,11 @@
 \*------------------------------------*/
 .btn {
 	display: inline-block;
-	background: $sol-red-normal;
+	background: $red-normal;
 	color: $white;
 	line-height: 1;
 	font-weight: bold;
-	padding: $pad;
+	//padding: $pad;
 	border: 0;
 	border-radius: 4px;
 	text-align: center;
@@ -17,24 +17,24 @@
 	}
 
 	&.disabled {
-		background: $gray-light-2;
-		color: $gray-light-4;
+		background: $gray-light;
+		color: $white;
 	}
 }
 
-.btn-small {
-	padding: $pad-half;
-}
-
-.btn-large {
-	padding: $pad-half;
-	text-transform: uppercase;
-	background: $gray;
-	font-size: 1.4rem;
-	font-weight: normal;
-}
-
-
-.text-btn {
-	font-style: italic;
-}
+// .btn-small {
+// 	padding: $pad-half;
+// }
+// 
+// .btn-large {
+// 	padding: $pad-half;
+// 	text-transform: uppercase;
+// 	background: $gray;
+// 	font-size: 1.4rem;
+// 	font-weight: normal;
+// }
+// 
+// 
+// .text-btn {
+// 	font-style: italic;
+// }

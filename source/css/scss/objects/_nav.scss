@@ -9,28 +9,28 @@
 	
 	a {
 		display: block;
-		padding: $pad;
-		border-top: 1px solid $gray-light-2;
+		//padding: $pad;
+		border-top: 1px solid $gray-light;
 	}
 
 	&.active {
 		max-height: 40em;
 	}
 
-	@media all and (min-width: $bp-med) {
-		max-height: none;
-		float: right;
-		clear: none;
+	// @media all and (min-width: $bp-med) {
+	// 	max-height: none;
+	// 	float: right;
+	// 	clear: none;
 
-		li {
-			float: left;
-		}
+	// 	li {
+	// 		float: left;
+	// 	}
 
-		a {
-			border: 0;
-		}
-		
-	}
+	// 	a {
+	// 		border: 0;
+	// 	}
+	// 	
+	// }
 }
 
 //Pagination
@@ -39,14 +39,14 @@
 
 	li {
 		float: left;
-		border-right: 1px solid $gray-light-2;
+		border-right: 1px solid $gray-light;
 
 		&:last-child {
 			border: 0;
 		}
 	}
 
-	a {
-		padding: $pad;
-	}
+	// a {
+	// 	padding: $pad;
+	// }
 }
