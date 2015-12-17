@@ -1,0 +1,10 @@
+small {
+  font-size:1.2rem;
+  color:$lightTextColor;
+}
+
+@media screen and (min-width:$largeWidth) {
+  small {
+    font-size:1.4rem;
+  }
+}

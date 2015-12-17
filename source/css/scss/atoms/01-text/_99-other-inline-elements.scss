@@ -1,0 +1,16 @@
+// @TODO Move to molecule, these are probably not as basic as the others
+.label,
+.source {
+  @extend small;
+  color:$dangerousLowContrastColor;
+}
+
+// @TODO Move to images subfolder
+img {
+  max-width:100%;
+  height:auto;
+}
+
+figure {
+  margin:0;
+}

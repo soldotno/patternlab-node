@@ -1,0 +1,10 @@
+code,pre,var,samp,kbd {
+  @include padded-text();
+
+  margin-bottom:$verticalBase;
+
+  font-family:monospace;
+  word-wrap:break-word;
+  color:#48bf48;
+  background:black;
+}

@@ -37,6 +37,10 @@ a {
 
     &:focus {
       outline:1px solid $linkColor;
+
+      &:hover {
+        outline:none;
+      }
     }
   }
 }

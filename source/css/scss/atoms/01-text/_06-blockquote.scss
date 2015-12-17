@@ -13,15 +13,6 @@ blockquote {
   }
 }
 
-q {
-  @extend h5;
-  font-style:italic;
-}
-
-cite {
-	@extend small;
-}
-
 @media screen and (min-width:$largeWidth) {
   blockquote {
     margin-left:$verticalBase*2 + $horizontalBase;
