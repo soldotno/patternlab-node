@@ -5,12 +5,12 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	margin: 0 10px 20px;
 	.flex.full,
 	.flex.half,
 	.flex.third{
 		box-sizing: border-box;
 		flex: 1 0 calc(100% - 20px);
-		margin: 0 10px 20px;
 		.imageholder{
 			position: relative;
 			width: 100%;
@@ -50,14 +50,17 @@
 	}
 
 	@media (min-width: 481px){
+		.flex{
+			margin: 0 20px 50px 20px;;
+		}
 		.flex.full{
-			flex: 1 0 calc(100% - 20px);
+			flex: 1 0 calc(100% - 40px);
 		}
 		.flex.half{
-			flex: 1 0 calc(50% - 20px);
+			flex: 1 0 calc(50% - 40px);
 		}
 		.flex.third{
-			flex: 1 0 calc(33.33% - 20px);
+			flex: 1 0 calc(33.33% - 40px);
 		}
 	}
 }
