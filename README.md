@@ -2,6 +2,8 @@
 
 ## About the Node Version of Pattern Lab
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/soldotno/patternlab-node.svg)](https://greenkeeper.io/)
+
 The Node version of [Pattern Lab](http://patternlab.io/) is, at its core, a static site generator. It combines platform-agnostic assets, like the Mustache-based patterns, the JavaScript-based viewer, and the self-contained webserver, with a Node-based "builder" that transforms and dynamically builds the Pattern Lab site.
 
 This repository contains the vanilla builder logic, grunt and gulp configurations, and some sample template/css/data to illustrate the power and flexibility of the tool.
